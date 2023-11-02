@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#blogList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.blog-card:hover {
+    transform: scale(1.05);
+}
+
+#blogDetails {
+    display: none;
+    padding: 20px;
+}
+
+.editable {
+    /* border: 1px solid #ddd;  */
+    padding: 10px;
+    margin-bottom: 10px;
+}

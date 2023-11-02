@@ -1,0 +1,43 @@
+/* Define initial styles for the blogDetails container */
+#blogDetails {
+    display: none; /* Initially hide the blog details container */
+    padding: 20px; /* Add padding around the content */
+}
+
+/* Style for editable input fields */
+.editable {
+    display: block; /* Display as block element */
+    width: 100%; /* Set the width to 100% to occupy full width */
+    padding: 10px; /* Add padding inside the input field */
+    margin: 10px 0; /* Add margin to separate input fields */
+    border: 1px solid #BFBFBF; /* Add a border with a light gray color */
+    border-radius: 5px; /* Add rounded corners */
+    font-size: 16px; /* Set font size */
+    outline: none; /* Remove outline when focused */
+    transition: border-color 0.3s; /* Add a transition effect for border color */
+}
+
+/* Style for the "Save" button */
+#save {
+    background-color: #7B7B7B; /* Background color for the button */
+    height: 35px; /* Set button height */
+    width: 35%; /* Set button width */
+    margin-left: 440px; /* Add left margin to position the button */
+}
+
+/* Style for the editable input fields when focused */
+.editable:focus {
+    border-color: #6B6561; /* Change border color when input is focused */
+}
+
+/* Style for the "Edit" button */
+#edit {
+    background-color: #7B7B7B; /* Background color for the button */
+}
+
+
+#read-more-btn{
+    max-height: 100px; /* Set a maximum height for partial content */
+    overflow: hidden;
+    transition: max-height 0.8s ease-in-out;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "thoughts",
+  "version": "1.0.0",
+  "description": "Share your world, one micro-blog at a time.",
+  "main": "script.js",
+  "dependencies": {
+    "anymatch": "^3.1.3",
+    "binary-extensions": "^2.2.0",
+    "braces": "^3.0.2",
+    "chokidar": "^3.5.3",
+    "fill-range": "^7.0.1",
+    "fsevents": "^2.3.3",
+    "glob-parent": "^5.1.2",
+    "immutable": "^4.3.4",
+    "is-binary-path": "^2.1.0",
+    "is-extglob": "^2.1.1",
+    "is-glob": "^4.0.3",
+    "is-number": "^7.0.0",
+    "normalize-path": "^3.0.0",
+    "picomatch": "^2.3.1",
+    "readdirp": "^3.6.0",
+    "source-map-js": "^1.0.2",
+    "to-regex-range": "^5.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "npx sass scss/main.scss dist/main.css "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VamsiN7/Thoughts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VamsiN7/Thoughts/issues"
+  },
+  "homepage": "https://github.com/VamsiN7/Thoughts#readme"
+}

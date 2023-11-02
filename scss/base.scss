@@ -1,0 +1,64 @@
+/* Set base styles for the entire webpage */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f2f2f2; /* Background color */
+}
+
+/* Style the header section */
+header {
+    background-color: #7B7B7B; /* Background color for header */
+    color: #fff; /* Text color */
+    padding: 20px; /* Padding around the header content */
+    display: flex; /* flexbox for layout */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Space evenly between elements */
+    align-items: center; /* Center align content */
+    overflow: hidden; /* Hide overflow content */
+    white-space: nowrap; /* Prevent text from wrapping */
+    animation: unwrapText 3s ease; /* Animation to unwrap text */
+}
+
+/* Style the heading */
+h1 {
+    animation: fadeIn 1s ease; /* fadeIn animation to the heading */
+}
+
+/* Style the caption text */
+.caption {
+    animation: fadeIn 1s ease; /* adeIn animation to the caption */
+}
+
+/* Keyframes for the unwrapText animation */
+@keyframes unwrapText {
+    from {
+        width: 0; /* Start with zero width */
+    }
+    to {
+        width: 100%; /* End with full width */
+    }
+}
+
+/* Style the image container */
+.image-container {
+    position: relative; /* Relative positioning */
+    display: inline-block; /* Display as inline-block */
+}
+
+/* Create Blog button */
+#createBtn {
+    background-color: #ffffff; /* Background color */
+    color: #000000; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for button */
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    text-decoration: none; /* Removes text decoration */
+    border-radius: 5px; /* Adds border radius for button */
+}
+
+/* Image */
+img {
+    height: 648px; /* Sets image height */
+    width: 149%; /* Sets image width to occupy the entire width of the container */
+}

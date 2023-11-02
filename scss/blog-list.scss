@@ -1,0 +1,22 @@
+/* Style for the blogList container */
+#blogList {
+    display: grid; /* Used grid layout for the container */
+    flex-wrap: wrap; /* Allow flexible wrapping of items */
+    gap: 20px; /* Set the gap between grid items */
+    padding: 20px; /* Add padding around the grid container */
+}
+
+/* Style for individual blog cards */
+.blog-card {
+    background-color: #e5ddc8; /* Set the background color of blog cards */
+    border: 1px solid #ddd; /* Add a border with a light gray color */
+    padding: 20px; /* Add padding inside the blog card */
+    width: 100%; /* Set the width to occupy the entire available width */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: transform 0.3s ease; /* Add a transition effect for scaling */
+
+    &:hover {
+        transform: scale(1.05); /* Scale up the blog card on hover */
+        box-shadow: 5px 5px 5px 5px rgba(166, 170, 179, 255); /* Add a box shadow on hover */
+    }
+}
